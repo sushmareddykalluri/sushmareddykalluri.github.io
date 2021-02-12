@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creating form</title>
+    <style>
+        body{
+            background-color:lightseagreen;
+            }
+            label{
+                padding-right:30px;
+                
+            }
+    </style>
 </head>
 <body align="center">
 
     <form>
         <h2>Registration Form</h2>
-        <label>First Name:</label>
+        <label>First Name:</label> 
         <input type="text" placeholder="First Name" name="" maxlength="50"><br><br>
         <label>Last Time:</label>
         <input type="text" placeholder="Last Name" name="" maxlength="50"><br><br>
@@ -25,7 +34,7 @@
         <label>Date of Birth(DOB):</label> 
         <input type="date" name=""><br><br>
         <label>Address:</label>
-        <input type="textarea" placeholder="Address" name=""><br><br>
+        <textarea id="Address" placeholder="Address" name="Address"></textarea><br><br>
         <label>City:</label>
         <input type="text" placeholder="City" name=""><br><br>
         <label>Pin Code:</label>
